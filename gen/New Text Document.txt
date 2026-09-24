@@ -1,0 +1,30 @@
+Three functions in finetune.py are replaced with TODOs: build_bnb_config(), build_lora_config(), and format_example(). No GPU needed to check your work — the test suite verifies your config objects directly.
+
+⬇ Download starter project (.zip)
+Unzip it, run pip install -r requirements.txt, then work through the tasks below in your own editor. Run python tests/test_challenge.py to check yourself as you go — check off each task here once its tests pass.
+
+
+Task 1 — build_bnb_config()
+4-bit NF4 quantization config for the frozen base model.
+
+Task 2 — build_lora_config()
+LoRA adapter config using the settings in config.py.
+
+Task 3 — format_example()
+Format one dataset row into the Instruction/Response text.
+
+
+Three functions are replaced with TODOs: chunk_text() in chunking.py, retrieve() in retriever.py, and build_prompt() in generator.py. Tests use lightweight fakes — no API key or internet needed to check your work.
+
+⬇ Download starter project (.zip)
+Unzip it, run pip install -r requirements.txt, then work through the tasks below in your own editor. Run python tests/test_challenge.py to check yourself as you go — check off each task here once its tests pass.
+
+
+Task 1 — chunk_text()
+Split a document into passages sized for retrieval.
+
+Task 2 — retrieve()
+Embed a question and query the vector index for the closest chunks.
+
+Task 3 — build_prompt()
+Build the augmented prompt with grounding instructions.

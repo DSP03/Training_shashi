@@ -1,0 +1,14 @@
+Building an Image Classifier with CNN using MNIST Dataset¶
+Objective: Build a Convolutional Neural Network (CNN) to classify handwritten digits from 0 to 9 using the MNIST dataset.
+
+The notebook covers:
+
+Loading the MNIST dataset
+Data preprocessing
+CNN model creation
+Model training and validation
+Test-set evaluation
+Training/validation plots
+Sample predictions
+Saving the trained model
+Testing custom handwritten digit images

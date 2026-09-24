@@ -1,0 +1,6 @@
+order_id,product,region,units,unit_price
+1,Widget,East,10,9.99
+2,Gadget,West,5,19.99
+3,Widget,East,8,9.99
+4,Gizmo,North,12,14.99
+5,Gadget,West,7,19.99
